@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Будинок з привидами</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+
+    <div class="loader" id="loader">
+        <div class="loader-title">Будинок з привидами</div>
+        <div class="loader-track"><div class="loader-bar" id="loaderBar"></div></div>
+        <div class="loader-text" id="loaderText">Завантаження текстур…</div>
+    </div>
+
+    <div class="hud">
+        <button id="soundBtn" type="button">🔇 Увімкнути звук</button>
+        <div class="hint">Тягніть мишею — обертання · колесо — масштаб · права кнопка — зсув</div>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
